@@ -115,7 +115,7 @@ a{
 /*热门旅游区*/
 #tour{
 	width:1263px;
-	height:1200px;
+	height:1150px;
 	text-align: center;
 	margin:30px auto;
 }
@@ -181,4 +181,48 @@ a{
 	font-size: 14px;
 	line-height: 25px;
 	background-color:#59b200;
+}
+
+/*页脚区 footer*/
+#footer{
+	height:360px;
+	background-color: #222; 
+}
+#footer .top{
+	width: 1263px;
+	height: 279px;
+	margin:0 auto;
+	text-align: center;
+}
+#footer .bottom{
+	height: 80px;
+	background-color: #000;
+	color:#777;
+	font-size:16px;
+	text-align: center;
+	line-height: 80px;
+	border-top:1px solid #444;
+}
+#footer .block{
+	display: inline-block;
+	width:410px;
+	height: 279px;
+	color:#ccc;
+	text-align:left;
+	vertical-align:top;
+}
+#footer .block h2{
+	font-size:24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer .block hr{
+	width:90%;
+	border:1px dashed #333;
+}
+#footer ul{
+	color:#777;
+	font-size: 18px;
+	text-indent:20px;
+	line-height: 2;
 }
