@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*headline部分*/
 #headline{
 	width:100%;
 	min-width: 1263px;
@@ -32,10 +33,6 @@
 	float:right;
 	width:340px;
 }
-.container .list{
-	float:left;
-	width:900px;
-}
 
 /*侧栏部分*/
 .container .sidebox{
@@ -57,16 +54,19 @@
 .container .tag{
 	padding: 10px 0;
 }
-.container .tag a{
+.container .tag li{
 	display: inline-block;
 	width: 100px;
 	height: 35px;
 	line-height: 35px;
-	color:#999;
 	text-align: left;
 	text-indent: 8px;
 	margin:2px 0;
 	background-color: #eee;
+}
+.container .tag a{
+	display: block;
+	color:#999;
 }
 .container .tag a:hover{
 	color:#fff;
@@ -102,3 +102,185 @@
 	color:#fff;
 	background-color: #458000;
 }
+
+.container .list{
+	float: left;
+	width: 910px;
+}
+/*内容栏目子信息区*/
+.list .infor{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin:0 0 20px 0;
+}
+.list .left{
+	float: left;
+}
+.list .left li{
+	display: inline-block;
+	width: 150px;
+	height: 43px;
+	line-height: 45px;
+	text-align:center;
+}
+.list .left li a{
+	display: block;
+	color:#666;
+}
+.list .left li:first-child{
+	position: relative;
+	left:1px;
+	background-color: #fff;
+	border-top:2px solid #458000;
+}
+.list .right{
+	float:right;
+	padding: 0 20px 0 0;
+}
+.list .right li{
+	display: inline-block;
+	width:60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.list .right li a{
+	padding: 3px 8px;
+	color:#666;
+}
+.list .right li a.selected,.list .right li a:hover{
+	color:#fff;
+	background-color: #458000;
+}
+
+/*旅游信息区*/
+.list .tour-detail{
+	position: relative;
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border:1px solid #eee;
+}
+.list .tour-detail img{
+	float:left;
+}
+.list .tour-detail figcaption{
+	float: right;
+	width:528px;
+	height: 230px;
+}
+.list .tour-detail footer{
+	position: absolute;
+	bottom: 0;
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+	background-color: #fafafa;
+}
+.list .tour-detail time{
+	color:#458b00;
+}
+.list .tour-detail hgroup{
+	width: 300px;
+}
+.list .tour-detail h2{
+	font-size: 24px;
+	color:#333;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+.list .tour-detail h3{
+	font-size: 16px;
+	color:#666;
+	font-style: normal;
+	line-height: 1.5;
+	padding: 10px 0 10px 25px;
+}
+.list .tour-detail ol{
+	padding: 0 0 0 25px;
+	line-height: 2;
+	color: #666;
+}
+.list .tour-detail ol mark{
+	background-color: #fff;
+	border:1px solid #458b00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color:#458b00;
+}
+.list .tour-detail .buy{
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+.list .tour-detail .price{
+	color:#f60;
+	font-size: 20px;
+}
+.list .tour-detail .price strong{
+	font-size: 36px;
+}
+.list .tour-detail .price s{
+	font-size: 16px;
+	color:#999;
+}
+.list .tour-detail .reserve{
+	margin: 10px 0 0 0;
+}
+.list .tour-detail .reserve a{
+	display: block;
+	width: 152px;
+	height: 40px;
+	color:#fff;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+}
+.list .tour-detail .type{
+	position: absolute;
+	top:0;
+	left:0;
+	width:90px;
+	height: 25px;
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	line-height: 25px;
+	background-color:#59b200;
+}
+.list .tour-detail .disc{
+	position: absolute;
+	top:0;
+	right:0;
+	width: 52px;
+	height: 52px;
+}
+.list .tour-detail .disc span{
+	display: block;
+	transform: rotate(45deg);
+	width: 52px;
+	height: 52px;
+	padding: 5px 0 0 0;
+	text-indent: 7px;
+	font-size: 14px;
+	color: #ff7a4d;
+}
+.list .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	background-color: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;
+}
+

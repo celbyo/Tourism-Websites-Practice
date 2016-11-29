@@ -89,11 +89,14 @@
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 1.5;
-	padding: 7px 0 5px 0;
+	padding: 7px 0 0px 0;
 }
 #tour strong.title{
 	color:#333;
 	font-weight: normal;
+}
+#tour .info{
+	padding: 5px 0 0 0;
 }
 #tour .sat{
 	position: relative;
