@@ -114,42 +114,42 @@
 	background-color: #eee;
 	margin:0 0 20px 0;
 }
-.list .left{
+.list .infor .left{
 	float: left;
 }
-.list .left li{
+.list .infor .left li{
 	display: inline-block;
 	width: 150px;
 	height: 43px;
 	line-height: 45px;
 	text-align:center;
 }
-.list .left li a{
+.list .infor .left li a{
 	display: block;
 	color:#666;
 }
-.list .left li:first-child{
+.list .infor .left li:first-child{
 	position: relative;
 	left:1px;
 	background-color: #fff;
 	border-top:2px solid #458000;
 }
-.list .right{
+.list .infor .right{
 	float:right;
 	padding: 0 20px 0 0;
 }
-.list .right li{
+.list .infor .right li{
 	display: inline-block;
 	width:60px;
 	height: 45px;
 	line-height: 45px;
 	text-align: center;
 }
-.list .right li a{
+.list .infor .right li a{
 	padding: 3px 8px;
 	color:#666;
 }
-.list .right li a.selected,.list .right li a:hover{
+.list .infor .right li a.selected,.list .infor .right li a:hover{
 	color:#fff;
 	background-color: #458000;
 }
@@ -284,3 +284,155 @@
 	cursor: pointer;
 }
 
+.container .ticket,.container .scenery,.container .about{
+	color:#666;
+	font-size: 20px;
+}
+.container .ticket h2,.container .scenery h2,.container .about h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+}
+.container .ticket .type{
+	margin:20px 0 10px 0 ;
+}
+.container .ticket .type mark{
+	color:#fff;
+	background-color:#458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+.container .ticket .left{
+	display: inline-block;
+	width: 43%;
+}
+.container .ticket .right{
+	display: inline-block;
+	width: 43%;
+}
+.container .ticket .button{
+	display: inline-block;
+	width: 9%;
+}
+.container .ticket .form p{
+	line-height: 3;
+}
+.container .ticket .form input{
+	width: 250px;
+	height: 30px;
+	color:#666;
+	font-size: 18px;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin: 0 0 0 16px;
+}
+.container .ticket .submit{
+	display: block;
+	position: relative;
+	top:-28px;
+	width: 90px;
+	height: 90px;
+	color:#fff;
+	font-size: 20px;
+	line-height: 90px;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+	border:none;
+	cursor:pointer;
+}
+.container .ticket .new{
+	margin:20px 0 0 0;
+}
+.container .ticket .new ul{
+	margin:20px 0 0 0;
+}
+.container .ticket .new li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+.container .ticket .new li:first-child{
+	padding-left: 0;
+}
+.container .ticket .new li:nth-child(2){
+	color:#fff;
+	background-color: #458b00;
+	border-radius: 4px;
+}
+.container .ticket table{
+	margin: 20px 0 0 0;
+	width: 100%;
+	border:1px solid #ddd;
+	border-collapse:collapse;
+}
+.container .ticket table th{
+	height: 50px;
+	line-height: 50px;
+	border-bottom:1px solid #ddd;
+}
+.container .ticket table td{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom:1px solid #ddd;
+}
+.container .ticket table tr:nth-child(2n){
+	background-color: #fafafa;
+}
+.container .ticket table tr:hover{
+	background-color: #eee;
+}
+.container .ticket table .price{
+	color:#f60;
+}
+.container .ticket table .more-flight{
+	color:#666;
+}
+.container .ticket table .reserve{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	color:#fff;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+}
+
+
+/*风景欣赏页面*/
+.container .scenery figure{
+	display:inline-block;
+	width:435px;
+	text-align:left;
+	padding: 4px;
+	border-radius:4px;
+	border:1px solid #ddd;
+	margin:15px 5px 15px 0;
+}
+.container .scenery figure img{
+	width:435px;
+	height: 280px;
+}
+.container .scenery figcaption{
+	text-align: center;
+	padding: 5px 0;
+}
+
+/*公司简介区*/
+.container .about p{
+	line-height: 2;
+	margin: 20px 0;
+}
+.container .about address{
+	line-height: 1.6;
+	margin:20px 0;
+	font-style: normal;
+}
